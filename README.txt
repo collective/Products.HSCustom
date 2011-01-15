@@ -1,8 +1,7 @@
 Introduction
 ============
 
-The HSCustom theme was originally created for my band "Headstraight". The band died but the
-theme lives on!
+The HSCustom theme was originally created for my band. The band died but the theme lives on!
 
 Installation
 ------------
