@@ -5,7 +5,7 @@ version = '0.2'
 
 setup(name='Products.HSCustom',
       version=version,
-      description="The HSCustom theme was originally written for my band's website.",
+      description="The HSCustom theme was originally created for my band's website.",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
@@ -28,13 +28,7 @@ setup(name='Products.HSCustom',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
-      # -*- Entry points: -*-
-
-      [distutils.setup_keywords]
-      paster_plugins = setuptools.dist:assert_string_list
-
-      [egg_info.writers]
-      paster_plugins.txt = setuptools.command.egg_info:write_arg
+      [z3c.autoinclude.plugin]
+      target = plone
       """,
-      paster_plugins = ["ZopeSkel"],
       )
